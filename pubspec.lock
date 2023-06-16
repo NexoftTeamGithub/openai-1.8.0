@@ -106,20 +106,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.2.4"
-  fetch_api:
-    dependency: transitive
-    description:
-      name: fetch_api
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.0-dev.2"
-  fetch_client:
-    dependency: "direct main"
-    description:
-      name: fetch_client
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.0-dev.1"
   file:
     dependency: transitive
     description:
