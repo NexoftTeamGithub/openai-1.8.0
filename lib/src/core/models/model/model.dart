@@ -30,7 +30,9 @@ class OpenAIModelModel {
     return OpenAIModelModel(
       id: json['id'],
       ownedBy: json['owned_by'],
-      permission: (json['permission'] as List)
+      permission: json['permission'] == null
+          ? []
+          : (json['permission'] as List)
           .map((e) =>
               OpenAIModelModelPermission.fromMap(e as Map<String, dynamic>))
           .toList(),
