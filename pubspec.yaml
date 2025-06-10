@@ -9,11 +9,11 @@ environment:
   sdk: ">=2.18.1 <4.0.0"
 
 dev_dependencies:
-  dart_code_metrics: ^5.6.0
+  dart_code_metrics: ^4.19.2
   lints: ^2.0.0
   test: ^1.16.0
 
 dependencies:
-  http: ^0.13.5
+  http: ^1.2.1
   meta: ^1.8.0
   collection: ^1.17.0
